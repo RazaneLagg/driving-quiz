@@ -1,3 +1,6 @@
+# Project Structure
+
+```plaintext
 frontend/
 ├── public/                      # Static assets
 │   ├── index.html               # Main HTML file
@@ -28,9 +31,8 @@ frontend/
 │   │   └── components/          # CSS files for components
 │   ├── utils/                   # Utility functions and helpers
 │   │   ├── api.js               # API configuration and calls
-│   │   ├── constants.js         # Constant values ( roles, difficulty levels)
-│   │   └── validators.js        # Validation functions ( email, password)
+│   │   ├── constants.js         # Constant values (roles, difficulty levels)
+│   │   └── validators.js        # Validation functions (email, password)
 │   ├── App.jsx                  # Main App component
 │   ├── index.js                 # React DOM rendering
 │   └── routes.jsx               # Application routes
-
