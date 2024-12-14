@@ -1,0 +1,172 @@
+/* ProfilePage.css */
+.profile-page-salah {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: #f5f5f5;
+    background-image: url('/public/assets/images/BG5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  
+  .profile-card-salah {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    width: 80%;
+    max-width: 1000px;
+    gap: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .profile-card-salah:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  }
+  
+  .left-section-salah {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex: 1;
+  }
+  
+  .profile-picture-wrapper-salah {
+    text-align: center;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+  }
+  
+  .profile-picture-salah {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .right-section-salah {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .profile-info-salah {
+    margin-bottom: 40px;
+  }
+  
+  .name-salah {
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 50px;
+  }
+  
+  .location-salah,
+  .age-gender-salah,
+  .description-salah {
+    font-size: 18px;
+    color: #6c6c6c;
+    margin-bottom: 30px;
+  }
+  .location-salah{
+    color: #20b486;
+  }
+  
+  .description-salah {
+    font-style: italic;
+    margin-bottom: 30px;
+  }
+  
+ .experiences-section-salah,
+.certificates-section-salah {
+  margin-bottom: 30px;
+}
+
+.section-title-salah {
+  font-size: 22px;
+  font-weight: bold;
+  color: #20b486;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.experience-item-wrapper-salah,
+.certificate-item-wrapper-salah {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-left: 20px;  /* Adds space between the circle and the text */
+}
+
+.experience-item-salah,
+.certificate-item-salah {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin-left: 10px; /* Adds space between the circle and the text */
+}
+
+.experience-icon-salah,
+.certificate-icon-salah {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #20b486;
+  margin-right: 12px;
+  margin-top: 4px; /* Adjusts position to center it better */
+}
+  
+  
+  @media (max-width: 768px) {
+    .profile-card-salah {
+      flex-direction: column;
+      width: 90%;
+    }
+  
+    .left-section-salah {
+      margin-bottom: 20px;
+    }
+  
+    .profile-picture-salah {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .profile-picture-salah {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .profile-card-salah {
+      padding: 20px;
+    }
+  
+    .name-salah {
+      font-size: 24px;
+    }
+  
+    .location-salah,
+    .age-gender-salah,
+    .description-salah {
+      font-size: 16px;
+    }
+  
+    .experience-item-salah,
+    .certificate-item-salah {
+      font-size: 16px;
+    }
+  }
+  
+  

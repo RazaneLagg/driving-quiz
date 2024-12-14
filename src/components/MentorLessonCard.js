@@ -1,4 +1,4 @@
-// MentorLessonCard.js
+
 import React from "react";
 import "../styles/mentorlessoncard.css";
 

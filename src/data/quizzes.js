@@ -1,0 +1,43 @@
+export const quizzes = [
+  {
+    id: 1,
+    title: "Road Safety Rules",
+    description: "Test your knowledge of common traffic signs and their meanings.",
+    tags: ["practice", "beginner", "school"],
+    time: "30 minutes",
+    type: "MCQs",
+    questions: "20 questions",
+    image: "/assets/images/signs.png",
+  },
+  {
+    id: 2,
+    title: "Road Safety Rules",
+    description: "Test your knowledge of common traffic signs and their meanings.",
+    tags: ["practice", "beginner", "school"],
+    time: "30 minutes",
+    type: "MCQs",
+    questions: "20 questions",
+    image: "/assets/images/signs.png",
+  },
+  {
+    id: 3,
+    title: "Road Safety Rules",
+    description: "Test your knowledge of common traffic signs and their meanings.",
+    tags: ["practice", "beginner", "school"],
+    time: "30 minutes",
+    type: "MCQs",
+    questions: "20 questions",
+    image: "/assets/images/signs.png",
+  },
+  {
+    id: 4,
+    title: "Road Safety Rules",
+    description: "Test your knowledge of common traffic signs and their meanings.",
+    tags: ["practice", "beginner", "school"],
+    time: "30 minutes",
+    type: "MCQs",
+    questions: "20 questions",
+    image: "/assets/images/signs.png",
+  },
+  
+];

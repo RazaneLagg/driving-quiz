@@ -19,8 +19,10 @@
   .mentor-cards-container {
     display: flex;
     gap: 20px;
-    justify-content: center; /* Center the cards */
-    flex-wrap: wrap; /* Allow wrapping for responsiveness */
+
+    justify-content: center; 
+    flex-wrap: wrap; 
+
   }
   
   .more-courses-btn {
@@ -28,18 +30,22 @@
   font-size: 1rem;
   font-weight: bold;
   text-decoration: none;
-  color: #20B486; /* Accent color */
+
+  color: #20B486; 
   padding: 10px 20px;
-  border: 2px solid #20B486; /* Matching border with accent color */
-  border-radius: 30px; /* Rounded corners for a soft look */
-  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  border: 2px solid #20B486; 
+  border-radius: 30px; 
+  transition: all 0.3s ease; 
+
   margin-top: 20px;
   text-align: center;
   }
   
   .more-courses-btn:hover {
-    background-color: #20B486; /* Accent color on hover */
-  color: #fff; /* Change text color on hover */
+
+    background-color: #20B486;
+  color: #fff; 
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
   }

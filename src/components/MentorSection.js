@@ -27,6 +27,7 @@ const mentors = [
     title: 'Traffic Safety Instructor, Safe Driving Academy',
     description: 'Passionate about teaching safe and responsible driving. Focused on building confidence in beginner drivers through practical lessons.',
   },
+
 ];
 
 const MentorSection = () => {

@@ -1,0 +1,176 @@
+
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+  }
+  
+  .container_searchpage {
+    width: 100%; 
+    max-width: 100%; 
+    margin: 0; 
+    padding: 0 15px; 
+    box-sizing: border-box; 
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .sub-heading {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .filter {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .filter-btn {
+    background: #f1f3f5;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+  }
+  
+  .filter-btn.active {
+    background: #1A906B;
+    color: #fff;
+  }
+  
+  .filter-btn:hover {
+    background: #1A906B;
+    color: white;
+  }
+  
+  .filter-btn.active:hover {
+    background: #00796b;
+  }
+  
+  
+  .results-billel {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  
+  }
+  
+  .result-item-billel {
+    display: flex; 
+    gap: 15px;
+    background: white;
+    padding: 20px; 
+    border-radius: 5px;
+    align-items: center;
+    width: 100%; 
+    box-sizing: border-box; 
+    border-bottom: 3px solid #ddd; 
+  }
+  
+  .result-item-billel:last-child {
+    border-bottom: none; }
+  
+  
+  .profile-pic-billel {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .content-billel h3 {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+  }
+  .content-billel *{
+    padding: 0;
+    margin: 0;
+  }
+  
+  .content-billel .role-billel {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .content-billel .expertise-billel {
+    font-size: 14px;
+    color: #1A906B;
+  }
+  
+  .content-billel .school-billel {
+    font-size: 14px;
+    color: #888;
+  }
+  .content-billel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    gap: 10px; 
+    width: 100%; 
+  }
+  .topresults-billel{
+    text-align: start;
+  }
+  
+  @media (max-width: 768px) {
+    .result-item-billel {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+  
+    .profile-pic-billel {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .content h3 {
+      font-size: 16px;
+    }
+  
+    .filter-btn {
+      padding: 8px 15px;
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 20px;
+    }
+  
+    .sub-heading {
+      font-size: 12px;
+    }
+  
+    .filter {
+      justify-content: center; 
+    }
+  
+    .result-item-billel {
+      padding: 10px;
+    }
+  
+    .profile-pic-billel {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .content-billel h3 {
+      font-size: 14px;
+    }
+  }
+  

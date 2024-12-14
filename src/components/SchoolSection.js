@@ -6,25 +6,33 @@ const schools = [
   {
     logo: '../../public/assets/Avatar (3).png',
     name: 'RoadWise Driving Academy',
+
     location: 'Ain benian Alger',
+
     description: 'Specializes in defensive driving and road safety training.',
   },
   {
     logo: '../assets/Avatar (4).png',
     name: 'Smooth Ride Institute',
+
     location: 'Souidania, Alger',
+
     description: 'Specializes in defensive driving and road safety training.',
   },
   {
     logo: '../assets/Avatar (3).png',
     name: 'DriveSmart Academy',
+
     location: 'Mahelma Alger',
+
     description: 'Known for its expert instructors and high pass rates.',
   },
   {
     logo: '../assets/Avatar (4).png',
     name: 'Precision Driving Academy',
+
     location: 'Staoueli AAlger',
+
     description: 'Offers advanced vehicle maneuver and highway driving training.',
   },
 ];

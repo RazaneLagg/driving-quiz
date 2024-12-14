@@ -1,13 +1,15 @@
-/* EditProfile-salah.css */
+
 .edit-profile-salah {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px;
-    background-image: url('/public/assets/images/BG5.png'); /* Replace with the actual path to your image */
-    background-size: cover; /* Makes the image cover the entire container */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+
+    background-image: url('/public/assets/images/BG5.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+
   }
   
   .profile-card-salah {
@@ -84,7 +86,9 @@
   .dynamic-section-salah label {
     color: #20b486;
     margin-bottom: 5px;
-    display: block; /* Ensure the label takes up the full width and is on its own row */
+
+    display: block; 
+
   }
   
   
@@ -121,7 +125,9 @@
   
     .input-field-salah,
     .textarea-field-salah {
-      width: 80%; /* Full width for smaller screens */
+
+      width: 80%; 
+
     }
   }
   
