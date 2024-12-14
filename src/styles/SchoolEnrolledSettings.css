@@ -1,0 +1,59 @@
+.school-enrolled-container {
+    max-width: 450px;
+    margin: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+
+  }
+
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .enrollment-details {
+    margin: 20px 0;
+  }
+  
+  .school-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #24844c;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .unroll-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .unroll-button:hover {
+    background-color: #b52b27;
+  }
+  
+  .no-enrollment-message {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .message.success {
+    margin-top: 15px;
+    color: #28a745;
+    font-weight: bold;
+  }
+  

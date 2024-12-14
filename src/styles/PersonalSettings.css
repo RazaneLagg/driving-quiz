@@ -1,0 +1,72 @@
+.personal-settings-container {
+    max-width: 400px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    text-align: start;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  .personal-settings-form{
+    background-color: #ffffff;
+  }
+  
+  .personal-settings-form .form-group {
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .personal-settings-form label {
+    display: block;
+   
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .personal-settings-form input,
+  .personal-settings-form select {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .personal-settings-form input[type='file'] {
+    padding: 10px 10px;
+  }
+  
+  .submit-button {
+    width: 40%;
+    padding: 10px;
+    background-color: #1A906B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  .form-group-gender{
+    background-color: rgb(255, 255, 255);
+  }
+  .form-group-gender select{
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  
