@@ -1,0 +1,204 @@
+
+
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+
+
+.quiz-container-bilel {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.quiz-title-bilel {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.progress-bar-bilel {
+  width: 100%;
+  background-color: #f3f3f3;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+
+.progress-bilel {
+  width: 0;
+  height: 100%;
+  background-color: #1a906b;
+  transition: width 0.3s ease;
+}
+
+
+.stats-bilel {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.stats-bilel span {
+  font-weight: bold;
+}
+
+
+.navigation-bilel {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navigation-bilel button {
+  padding: 10px 20px;
+  border-color:#1a906b ;
+  background-color: white;
+  color: #1a906b;
+  border-radius: 262px;
+  font-size: 1em;
+  cursor: pointer;
+  
+}
+
+.navigation-bilel button:disabled {
+  background-color: white;
+  cursor: not-allowed;
+}
+
+.navigation-bilel button:hover:not(:disabled) {
+  background-color: #1a906b;
+  color: white;
+}
+
+
+.question-container-bilel {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#question-title-bilel {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+#question-text-bilel {
+  font-size: 1.2em;
+  margin: 20px 0;
+  color: #333;
+}
+
+
+.quiz-bilel-form {
+  text-align: left;
+  margin: 20px auto;
+  display: inline-block;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+
+.option-label-bilel {
+  display: block;
+  margin: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.option-label-bilel input[type="radio"]:checked + label {
+  color: green;
+}
+
+.option-label-bilel input[type="radio"]:checked[incorrect] + label {
+  color: red;
+}
+
+.option-label-bilel.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.option-label-bilel.incorrect {
+  color: red;
+  font-weight: bold;
+}
+
+
+.correct-answer-bilel {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: green;
+  font-weight: bold;
+}
+
+
+.modal-overlay-bilel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Slightly darker overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-bilel {
+  background: white;
+  padding: 30px; /* Increased padding for a bigger feel */
+  width: 400px;  /* Increased width */
+  max-width: 90%; /* Ensure it fits on smaller screens */
+  border-radius: 12px; /* Softer corners */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* More prominent shadow */
+  text-align: center;
+}
+
+.modal-bilel h2 {
+  font-size: 1.8em; /* Larger title */
+  margin-bottom: 15px;
+}
+
+.modal-bilel p {
+  font-size: 1.2em; 
+  margin-bottom: 20px;
+}
+
+.modal-bilel button {
+  background: #1a906b;
+  color: white;
+  border: none;
+  padding: 12px 25px; 
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1em; 
+}
+
+.modal-bilel button:hover {
+  background: #137a59;
+}
