@@ -1,0 +1,64 @@
+#profilepagecontent {
+    margin-top:5vh;
+    width: 70vw;;
+}
+
+#mentorProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imane-mentor-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    #instructorSection {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center; 
+        text-align: start; 
+        gap: 2vh; 
+    }
+
+    #instructorPic {
+        width: 30vw; 
+    }
+
+    #instructorInfo {
+        width: 90%;
+        text-align: center; 
+    }
+}
+
+@media (max-width: 400px) {
+    #instructorSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: start; 
+        gap: 1vh;
+    }
+
+    #instructorPic {
+        margin-left: 0;
+        margin-right: 0;
+        width: 50vw; 
+    }
+
+    #instructorInfo {
+        width: 95%; 
+        padding: 0 10px; 
+        text-align: start; 
+    }
+}

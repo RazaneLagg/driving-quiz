@@ -1,0 +1,39 @@
+#mentorCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin: 25px;
+  }
+  
+  #mentorInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin: 0 10px 0 10px;
+  }
+  
+  #mentorPic {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+  }
+  
+  .mentorName {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .mentorLevel {
+    color: #22B286;
+    font-size: 14px;
+  }
+  
+  .mentorDesc {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  

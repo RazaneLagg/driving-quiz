@@ -1,0 +1,213 @@
+.mentors-page {
+  padding: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.add-mentor-btn {
+  padding: 10px 20px;
+  background-color: #20b486;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.add-mentor-btn:hover {
+  background-color: #1b8c64;
+}
+
+.mentor-table {
+  width: 90%;
+  max-width: 1200px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.mentor-table th,
+.mentor-table td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+  white-space: nowrap;
+}
+
+.mentor-table th {
+  background-color: #f1f1f1;
+  font-weight: 600;
+}
+
+.mentor-table td {
+  background-color: white;
+  color: #555;
+}
+
+.mentor-table td button {
+  padding: 8px 15px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mentor-table td button:hover {
+  background-color: #188a72;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.view-btn {
+  background-color: #188a72;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #ff1a1a;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 1000;
+}
+
+.popup .close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #888;
+  background: none;
+  border: none;
+  transition: color 0.3s;
+}
+
+.popup .close-btn:hover {
+  color: #333;
+}
+
+.popup.active {
+  display: block;
+}
+
+.popup .popup-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popup .popup-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.popup .delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.popup .delete-btn:hover {
+  background-color: #ff1a1a;
+}
+
+.popup .copy-link-btn {
+  background-color: #20b486;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popup .copy-link-btn:hover {
+  background-color: #188a72;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .mentor-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    border: none;
+  }
+
+  .mentor-table th,
+  .mentor-table td {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .mentor-table tr {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .mentor-table th {
+    display: none;
+  }
+
+  .mentor-table td {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .mentor-table td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #333;
+  }
+}

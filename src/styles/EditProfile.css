@@ -1,0 +1,154 @@
+/* EditProfile-salah.css */
+.edit-profile-salah {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-image: url('/public/assets/images/BG5.png'); /* Replace with the actual path to your image */
+    background-size: cover; /* Makes the image cover the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  
+  .profile-card-salah {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    width: 70%;
+    max-width: 800px;
+    gap: 20px;
+  }
+  
+  .left-section-salah {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-picture-wrapper-salah {
+    text-align: center;
+  }
+  
+  .profile-picture-salah {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #20b486;
+    margin-bottom: 10px;
+  }
+  
+  .profile-picture-wrapper-salah input {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .right-section-salah {
+    flex: 2;
+  }
+  
+  .profile-form-salah {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group-salah {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .input-field-salah,
+  .textarea-field-salah {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  .textarea-field-salah {
+    min-height: 80px;
+    resize: none;
+  }
+  
+  .dynamic-section-salah label {
+    color: #20b486;
+    
+  }
+
+  .dynamic-section-salah label {
+    color: #20b486;
+    margin-bottom: 5px;
+    display: block; /* Ensure the label takes up the full width and is on its own row */
+  }
+  
+  
+  .add-button-salah {
+    background-color: #20b486;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .add-button-salah:hover {
+    background-color: #178a65;
+  }
+  
+
+  @media (max-width: 768px) {
+    .profile-card-salah {
+      flex-direction: column;
+      width: 90%;
+    }
+  
+    .left-section-salah {
+      margin-bottom: 20px;
+    }
+  
+    .profile-picture-salah {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .input-field-salah,
+    .textarea-field-salah {
+      width: 80%; /* Full width for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .profile-picture-salah {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .profile-card-salah {
+      padding: 15px;
+    }
+  }
+  
+  .submit-button-salah {
+    background-color: #20b486;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 85%;
+  }
+  
+  .submit-button-salah:hover {
+    background-color: #178a65;
+  }
+  

@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sen', sans-serif;
+  background-image: none; 
+}
+
+.icons {
+  font-family: "Font Awesome 6 Free";
+}
+
+#schoolProfile {
+  display: flex;
+  flex-direction: column;
+}
+#pageContent {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-evenly;
+  margin: 15vh 50px 50px 50px;
+  padding-right: 10vw;
+}
+
+#schoolProfile {
+  margin-bottom: 50px;
+  
+}
+
+#schoolContact {
+  width: 20vw;
+}
+#schoolContact, #schoolInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#schoolInformation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.schoolDesc{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin:  10px 0 10px 0;
+  width: 200px; 
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(43, 43, 43);
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+
+#schoolLogo {
+  width: 10vw;
+  height: 10vw;
+}
+
+
+.icons {
+  margin-right: 5px;
+}
+
+#joinSchool {
+  background-color: white;
+  border: solid;
+  border-radius: 8px;
+  border-width: 2px;
+  width: 200px;
+  height: 40px;
+  border-color: #1A906B;
+  color: #1A906B;
+  margin-top: 15px;
+}
+
+.flexStart {
+  padding-right: 50px;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-imane {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  margin: 15px 0 5px 0;
+}
+
+#location {
+  color:#1A906B;
+  margin: 5px 0 5px 0;
+}
+
+#schoolYap {
+  line-height:24px;
+  margin: 5px 0 5px 0;
+  color: black;
+  font-size: 20px;
+}
+
+.courseItem {
+  color: black;
+  margin: 10px;
+}
+
+.spacing {
+  height: 20px
+}
+
+
+@media (max-width: 1200px) {
+  #pageContent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #schoolLogo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+  }
+
+  .schoolDesc {
+    font-size: 25px;
+  }
+
+  #joinSchool {
+    width: 300px;
+    height: 60px;
+    font-size: 25px;
+  }
+
+  #schoolContact {
+    margin-bottom: 20px;
+  }
+
+  #schoolInformation {
+    align-items: flex-start;
+  }
+}
+
+
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+
+.popupContent {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.popupInput {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+.submitButton {
+  background-color: #1A906B;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submitButton:hover {
+  background-color: #138a5c;
+}

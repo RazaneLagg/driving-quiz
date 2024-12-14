@@ -1,0 +1,53 @@
+.learning-card {
+    width: 195px;
+    height: 250px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .card-content {
+    position: absolute;
+    padding-bottom: 12px;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Ensure card content spans full width */
+   
+  }
+  
+  .card-title {
+    font-size: 0.9rem;
+    padding-left: 4%;
+    margin-bottom: 8px;
+    color: #ffffff;
+    /* No centering here, left-aligned by default */
+  }
+  
+  .progress-bar {
+    height: 10px;
+    position: relative;
+    bottom: 0;
+    left: 50%; /* Horizontally center the progress bar */
+    transform: translateX(-50%); /* Adjust to truly center the bar */
+    width: 92%; /* Optional: adjust the width to make it a bit smaller */
+    background: #C0C0C0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #20B486;
+  }
+  

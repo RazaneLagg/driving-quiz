@@ -1,0 +1,45 @@
+.mentors-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+  }
+  
+  .section-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .section-subtitle {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 50px;
+  }
+  
+  .mentor-cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Center the cards */
+    flex-wrap: wrap; /* Allow wrapping for responsiveness */
+  }
+  
+  .more-courses-btn {
+    display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #20B486; /* Accent color */
+  padding: 10px 20px;
+  border: 2px solid #20B486; /* Matching border with accent color */
+  border-radius: 30px; /* Rounded corners for a soft look */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  margin-top: 20px;
+  text-align: center;
+  }
+  
+  .more-courses-btn:hover {
+    background-color: #20B486; /* Accent color on hover */
+  color: #fff; /* Change text color on hover */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+  }
