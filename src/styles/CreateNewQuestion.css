@@ -1,0 +1,54 @@
+.create-question-container-khadija {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .create-question-container-khadija h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .create-question-form-khadija {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group-khadija {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group-khadija label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group-khadija input,
+  .form-group-khadija textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .form-group-khadija textarea {
+    height: 100px;
+  }
+  
+  .btn-submit-khadija {
+    background-color: #1A906B;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-submit-khadija:hover {
+    background-color: #155e43;
+  }
+  
