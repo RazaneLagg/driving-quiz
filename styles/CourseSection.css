@@ -1,0 +1,56 @@
+/* src/components/CourseSection.css */
+.course-section {
+    padding: 50px;
+    background-color: #ffffff;
+  }
+  
+  .course-header h2 {
+    text-align: left;
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .course-header p {
+    text-align: left;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .course-cards-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px 0;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .more-courses-btn {
+    display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #20B486; 
+  padding: 10px 20px;
+  border: 2px solid #20B486; 
+  border-radius: 30px; 
+  transition: all 0.3s ease; 
+  margin-top: 20px;
+  text-align: center;
+  }
+  
+  .more-courses-btn:hover {
+    background-color: #20B486; 
+  color: #fff; 
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+  
+  @media (max-width: 768px) {
+    .course-cards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
