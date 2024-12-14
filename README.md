@@ -1,7 +1,6 @@
 # Project Structure
 
 ```plaintext
-frontend/
 ├── public/                      # Static assets
 │   ├── index.html               # Main HTML file
 │   └── assets/                  # Images, fonts, icons...
