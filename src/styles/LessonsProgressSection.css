@@ -1,0 +1,83 @@
+.learning-section {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .section-header {
+    width: 100%;
+    display: flex;
+   /*background-color: rgb(161, 161, 46);*/
+    border-bottom-color: rgba(0, 0, 0, 0.35);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 17.5px;
+    margin-top: 5px;
+  }
+  
+  .section-header h2 {
+    margin: 0;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: light;
+  }
+  
+  .see-all {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+  }
+  
+  .card-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap; /* Ensures cards wrap to the next row if needed */
+    gap: 15px; /* Space between cards */
+  
+  }
+
+  .card-container > * {
+    flex: 0 0 calc(100%/6 - 15px); /* Fixed width for each card */
+    height: 250px; /* Fixed height for each card */
+  }
+  /* Media Query for 5 cards per row */
+@media screen and (max-width: 1200px) {
+  .card-container > * {
+    flex: 0 0 calc(100% / 5 - 12px); /* Adjust to 5 cards per row */
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .card-container > * {
+    flex: 0 0 calc(100% / 4 - 12px); /* Adjust to 5 cards per row */
+  }
+}
+
+@media screen and (max-width: 754px) {
+  .card-container > * {
+    flex: 0 0 calc(100% / 3 - 12px); /* Adjust to 5 cards per row */
+  }
+}
+
+@media screen and (max-width: 552px) {
+  .card-container > * {
+    flex: 0 0 calc(100% / 2 - 12px); /* Adjust to 5 cards per row */
+  }
+}
+
+
+@media screen and (max-width: 367px) {
+  .card-container > * {
+    flex: 0 0 calc(100%  - 12px); /* Adjust to 5 cards per row */
+  }
+}

@@ -1,0 +1,198 @@
+.SettingsBarContainer{
+
+    height: calc(100vh - 60px);
+    width: 100%;
+    position: sticky;
+    top: 60px;
+    left: 0;
+    background-color: #1A906B;
+
+    
+}
+.test{
+    width: 20%;
+    position: relative;
+}
+.test.visible{
+  width: 5%;
+}
+.options{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 0;
+    padding-left: 0px;
+    margin: auto;
+
+    border-radius: 15px;
+
+}
+.options li{
+
+    border-bottom: 1px solid #ffffff;
+    color: white;
+    position: relative;
+    left: 15px;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+width: 100%;
+    margin: 1px;
+
+    list-style: none;
+   transition: all 0.2s ease-in-out;
+   cursor: pointer;
+    
+}
+
+.options li.selected {
+    border-bottom: 1px solid #ffffff;
+    color: white;
+    position: relative;
+    left: 15px;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+width: 100%;
+    margin: 1px;
+
+    list-style: none;
+    background-color: #3ec198;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .options li:hover {
+    border-bottom: 1px solid #ffffff;
+    color: white;
+    position: relative;
+    left: 15px;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+width: 100%;
+    margin: 1px;
+
+    list-style: none;
+    background-color: #70d4b4;
+  }
+  .SettingsBarContainer.visible {
+    background-color: brown; /* Move to top of page when visible */
+    display: none;
+  }
+  .ijbol{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 50;
+    width: 1px;
+    height: 100px;
+    border-radius: 50px;
+    display: none;
+  }
+
+   .ijbol.visible{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 50;
+    width: 1px;
+    height: 100px;
+    border-radius: 50px;
+    display: block;
+  }
+
+
+
+
+
+
+  .option-item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 15px;
+    border-bottom: 1px solid #ffffff;
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.option-item.selected {
+    background-color: #3ec198;
+}
+
+.option-item:hover {
+    background-color: #70d4b4;
+}
+
+/* Icon styles */
+.icon {
+    margin-right: 10px;
+    font-size: 1.2em; /* Adjust as needed */
+}
+
+/* Specific styles for each option */
+.icon-personal-settings, .icon-change-passwords, .icon-delete-account, .icon-school-settings {
+    color: #ff6347; /* Example color for 'Personal Settings' */
+    display: none;
+}
+.icon-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+
+
+  @media (max-width: 750px){
+    
+    .ijbol{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 50;
+      width: 1px;
+      height: 100px;
+      border-radius: 50px;
+      display: block;
+    }
+    .icon-personal-settings, .icon-change-passwords, .icon-delete-account, .icon-school-settings {
+      color: #ff6347;
+      display: block;
+      /* Example color for 'Personal Settings' */
+  }
+  .text{
+    display: none;
+  }
+  .option-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-bottom: 1px solid #ffffff;
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+  
+  }
