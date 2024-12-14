@@ -1,0 +1,135 @@
+.page-container-salah {
+  display: flex;
+  gap: 20px;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.lessons-list-salah {
+  width: 30%;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lesson-item-salah {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.lesson-icon-salah {
+  width: 30px;
+  height: 30px;
+}
+
+.lesson-form-salah {
+  width: 60%;
+  padding: 30px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #ffffff, #fcfcfc);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  font-family: 'Arial', sans-serif;
+}
+
+.lesson-form-salah .form-group-salah {
+  margin-bottom: 20px;
+}
+
+.lesson-form-salah .form-group-salah label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+}
+
+.lesson-form-salah .form-group-salah input, .lesson-form-salah .form-group-salah textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #555;
+  transition: box-shadow 0.3s, border-color 0.3s;
+  width: 90%;
+}
+
+.lesson-form-salah .form-group-salah input:focus, .lesson-form-salah .form-group-salah textarea:focus {
+  border-color: #20b486;
+  box-shadow: 0 0 5px rgba(32, 180, 134, 0.5);
+  outline: none;
+}
+
+.lesson-form-salah .form-group-salah textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.lesson-form-salah  button {
+  padding: 12px 30px;
+  font-size: 16px;
+  background-color: #20b486;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.lesson-form-salah  button:hover {
+  background-color: #178a65;
+}
+
+.lesson-form-salah .form-group-salah select {
+  width: 95%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.lesson-form-salah .form-group-salah select:focus {
+  border-color: #17a773;
+  box-shadow: 0 0 5px rgba(23, 167, 115, 0.5);
+}
+
+.lesson-form-salah .form-group-salah option {
+  font-size: 16px;
+  padding: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .page-container-salah {
+      flex-direction: column;
+      padding: 20px;
+  }
+
+  .lessons-list-salah {
+      width: 90%;
+      padding: 0;
+  }
+
+  .lesson-form-salah {
+      width: 80%;
+      margin-bottom: 20px;
+  }
+
+  input, textarea {
+      width: 80%;
+  }
+
+  select {
+      width: 80%;
+  }
+}
