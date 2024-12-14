@@ -1,0 +1,70 @@
+.mentor-homepage-salah {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.mentor-header-salah {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.mentor-header-salah h1 {
+  font-size: 2.5rem;
+  margin-top: 40px;
+  color: #20b486;
+}
+
+.mentor-header-salah p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.recent-courses-salah {
+  margin-top: 20px;
+
+}
+
+.section-header-salah {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  
+}
+
+.recent-label-salah {
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-left: 4px solid #20b486;
+  padding-left: 10px;
+  color: #333;
+}
+
+.see-all-salah {
+  font-size: 1rem;
+  color: #20b486;
+  cursor: pointer;
+}
+
+.see-all-salah:hover {
+  text-decoration: underline;
+}
+
+.courses-grid-salah {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.quizzes-grid-salah{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px; 
+  justify-content: center;
+}
+
+.courses-link-salah{
+  text-decoration: none;
+}

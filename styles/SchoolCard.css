@@ -1,0 +1,34 @@
+.school-card {
+    background: #f4f4f4;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .school-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  .school-name {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    height: 60px;
+  }
+  
+  .school-location {
+    font-size: 1em;
+    color: #007b5e;
+    margin-bottom: 20px;
+    height: 40px;
+  }
+  
+  .school-description {
+    font-size: 0.95em;
+    color: #555;
+    height: 50px;
+  }
+  

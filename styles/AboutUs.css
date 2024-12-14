@@ -1,0 +1,124 @@
+.about-us {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    text-align: left;
+  }
+  
+
+  .about-top, .about-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+  }
+  
+  .about-top.visible, .about-bottom.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .text-section, .feature-text {
+    flex: 1;
+  }
+  
+  .text-section h1 {
+    font-size: 2.5rem;
+    color: #20B486;
+    margin-bottom: 10px;
+  }
+  
+  .text-section h2, .feature-text h2 {
+    font-size: 2rem;
+    color: #034748;
+    margin-bottom: 15px;
+  }
+  
+  .text-section p, .feature-text p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  a.join-btn, a.learn-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #20B486;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(32, 180, 134, 0.3);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  
+
+  a.join-btn:hover, a.learn-btn:hover {
+    transform: translateY(-3px);
+    color: #fff;
+  }
+  
+
+  .image-section, .feature-image {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .image-section img {
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  .feature-image img {
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .image-section img:hover, .feature-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  .image-section img:nth-child(1) {
+    margin-top: -100px;
+  }
+  
+  .image-section img:nth-child(2) {
+    margin-bottom: -100px; 
+  }
+  
+
+  @media (max-width: 768px) {
+    .about-top, .about-bottom {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .text-section, .feature-text {
+      text-align: center;
+    }
+  
+    .image-section img, .feature-image img {
+      width: 80%;
+      margin: 0 auto;
+      margin: 5px;
+    }
+    .image-section img:nth-child(1),
+  .image-section img:nth-child(2) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+    
+  }
+  
