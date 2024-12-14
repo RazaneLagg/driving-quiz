@@ -1,0 +1,134 @@
+
+
+.container_quizmentorview-khadija {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container_questions-khadija {
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px; 
+  justify-content: center; 
+   }
+   
+.page-title-khadija {
+    font-size: 2.2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+.start-quiz-btn-khadija {
+    display: inline-block; 
+    width: 100%; 
+    max-width: 300px;
+    background-color: #f7faff; 
+    color: #1a906b; 
+    padding: 10px 20px; 
+    border: 2px solid #1a906b; 
+    border-radius: 11px; 
+    font-size: 1.1em; 
+    font-weight: bold; 
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box; 
+    margin-top: 15px;
+    margin-top: 15px;
+
+  }
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    justify-content: center;
+}
+
+/* Question Card Styles */
+.question-card-container-khadija {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 15px;
+    height: 240px;
+}
+
+.question-card-container-khadija:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.question-card-container-khadija h2 {
+    font-size: 1.4em;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.question-details-container-khadija {
+    padding: 15px;
+}
+
+.question-options-container-khadija {
+    margin-top: 10px;
+}
+
+.option-item-khadija {
+    font-size: 0.95em;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.question-card-link-khadija {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+
+.question-card-link-khadija:hover {
+    color: #c9e4dc;
+}
+
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+        gap: 20px;
+    }
+
+    .page-title-khadija {
+        font-size: 1.8em;
+    }
+}
+.create-quiz-button-quizmentorview-khadija {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .btn-create-quizmentorview-khadija {
+    padding: 12px 25px;
+    background-color: #1A906B;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-create-quizmentorview-khadija:hover {
+    background-color: #155e43;
+    transform: translateY(-2px);
+  }
+  
+  .btn-create-quizmentorview-khadija:active {
+    transform: translateY(1px);
+  }
+  
+  .btn-create-quizmentorview-khadija:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(26, 144, 107, 0.4);
+  }
