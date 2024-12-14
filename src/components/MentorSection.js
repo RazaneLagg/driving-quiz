@@ -5,27 +5,27 @@ import '../styles/MentorSection.css';
 const mentors = [
   {
     image: './assets/images/salah.jpg',
-    name: 'salah eddine',
-    title: 'Driving Safety Expert, RoadWise Driving Academy',
-    description: 'Over 10 years of experience teaching road safety and defensive driving techniques. Certified in advanced road safety measures.',
+    name: 'Salah Eddine',
+    title: 'Defensive Driving Expert, RoadWise Driving Academy',
+    description: 'Specializes in defensive driving and accident prevention with over 10 years of experience guiding new and experienced drivers.',
   },
   {
     image: './assets/images/bilel.jpg',
-    name: 'bilel khiri',
-    title: 'Driving Safety Expert, RoadWise Driving Academy',
-    description: 'Over 10 years of experience teaching road safety and defensive driving techniques. Certified in advanced road safety measures.',
+    name: 'Bilel Khiri',
+    title: 'Traffic Safety Specialist, Highway Safety Institute',
+    description: 'Expert in road safety regulations and driver behavior analysis. Committed to making roads safer for all.',
   },
   {
     image: './assets/images/khadija.jpg',
-    name: 'khadidja arbaoui',
-    title: 'Driving Safety Expert, RoadWise Driving Academy',
-    description: 'Over 10 years of experience teaching road safety and defensive driving techniques. Certified in advanced road safety measures.',
+    name: 'Khadidja Arbaoui',
+    title: 'Advanced Driving Instructor, Precision Wheels Academy',
+    description: 'Certified instructor with expertise in advanced driving skills, including high-speed control and emergency maneuvers.',
   },
   {
-    image: './assets/images/salah.jpg',
-    name: 'ahmed rafik',
+    image: './assets/images/avatarmentor2.jpg',
+    name: 'Maroua',
     title: 'Traffic Safety Instructor, Safe Driving Academy',
-    description: 'Passionate about teaching new drivers the fundamentals of safe driving. Experienced in defensive driving techniques.',
+    description: 'Passionate about teaching safe and responsible driving. Focused on building confidence in beginner drivers through practical lessons.',
   },
 
 ];

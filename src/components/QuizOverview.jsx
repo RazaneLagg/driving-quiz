@@ -23,7 +23,9 @@ function QuizOverview() {
       </div>
       <div className="quiz-meta-bilel">
         <p>
-          Created by <b>Ning Yizhuo</b>, <span className="school-name-bilel">Adlene Auto Ecole</span>
+
+          Created by <b>Meriem Maroua</b>, <span className="school-name-bilel">BMW M Auto Ecole</span>
+
         </p>
         <p>⏱ 30 minutes &nbsp; | &nbsp; 20 questions</p>
       </div>

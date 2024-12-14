@@ -19,8 +19,10 @@
   .mentor-cards-container {
     display: flex;
     gap: 20px;
+
     justify-content: center; 
     flex-wrap: wrap; 
+
   }
   
   .more-courses-btn {
@@ -28,18 +30,22 @@
   font-size: 1rem;
   font-weight: bold;
   text-decoration: none;
+
   color: #20B486; 
   padding: 10px 20px;
   border: 2px solid #20B486; 
   border-radius: 30px; 
   transition: all 0.3s ease; 
+
   margin-top: 20px;
   text-align: center;
   }
   
   .more-courses-btn:hover {
+
     background-color: #20B486;
   color: #fff; 
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
   }

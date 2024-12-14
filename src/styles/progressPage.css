@@ -1,0 +1,24 @@
+#progressPage , #progressPageContent{
+    display: flex;
+    flex-direction: column;
+}
+
+#progressPageContent {
+    margin-top: 5vh;
+}
+
+#takenLessons {
+    margin: 3vh 20vw 5vh 20vw;
+}
+
+#name {
+    color: #1A906B;;
+}
+
+#divider {
+    margin-top: 5vh;
+}
+
+#salutations {
+    margin-bottom:5px;
+}

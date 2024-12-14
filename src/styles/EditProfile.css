@@ -1,13 +1,15 @@
-/* EditProfile-salah.css */
+
 .edit-profile-salah {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px;
+
     background-image: url('/public/assets/images/BG5.png'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
+
   }
   
   .profile-card-salah {
@@ -84,7 +86,9 @@
   .dynamic-section-salah label {
     color: #20b486;
     margin-bottom: 5px;
+
     display: block; 
+
   }
   
   
@@ -103,7 +107,7 @@
     background-color: #178a65;
   }
   
-  
+
   @media (max-width: 768px) {
     .profile-card-salah {
       flex-direction: column;
@@ -121,7 +125,9 @@
   
     .input-field-salah,
     .textarea-field-salah {
+
       width: 80%; 
+
     }
   }
   

@@ -11,7 +11,7 @@ const CourseCard = ({ category, title, description, instructor, School, image })
         <span className="course-category">{category}</span>
         <h3>
           {title}
-          <a href="#" className="course-link">↗</a>
+
         </h3>
         <p>{description}</p>
         <div className="course-footer">

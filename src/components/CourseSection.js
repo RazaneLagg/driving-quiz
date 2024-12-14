@@ -7,38 +7,39 @@ const CourseSection = () => {
   const courses = [
     {
       category: 'Course',
-      title: 'Learner Standard Track Course',
-      description: 'If you\'ve never been behind the steering wheel, this course is for you. At the end of 21 days, you\'ll know the basic traffic rules.',
-      instructor: 'Salah Yaakoub',
-      School: "Souidania school",
+      title: 'Defensive Driving Essentials',
+      description: 'Learn the techniques to anticipate and respond to hazards on the road safely.',
+      instructor: 'Fatema',
+      School: "Greenlight Driving Academy",
+      image: "./assets/images/avatarmentor4.jpg"
+    },
+    {
+      category: 'Course',
+      title: 'Beginner Driver Intensive',
+      description: 'A 14-day crash course to quickly build confidence and skills for new drivers.',
+      instructor: 'Salah',
+      School: "Highway Stars School",
       image: "./assets/images/salah.jpg"
     },
     {
-        category: 'Course',
-        title: 'Learner Standard Track Course',
-        description: 'If you\'ve never been behind the steering wheel, this course is for you. At the end of 21 days, you\'ll know the basic traffic rules.',
-        instructor: 'Jane Cooper',
-        School: "Souidania school",
-        image: "./assets/images/salah.jpg"
-      },
-      {
-        category: 'Course',
-        title: 'Learner Standard Track Course',
-        description: 'If you\'ve never been behind the steering wheel, this course is for you. At the end of 21 days, you\'ll know the basic traffic rules.',
-        instructor: 'Salah Yaakoub',
-        School: "Souidania school",
+      category: 'Course',
+      title: 'Traffic Rules and Safety Workshop',
+      description: 'Focus on traffic signs, rules, and practical safety tips to avoid accidents.',
+      instructor: 'Bilel',
+      School: "Safe Drive Institute",
+      image: "./assets/images/bilel.jpg"
+    },
+    {
+      category: 'Course',
+      title: 'Advanced Road Navigation',
+      description: 'Master navigation techniques for highways, busy streets, and roundabouts.',
+      instructor: 'Salah ',
+      School: "Urban Wheels Center",
       image: "./assets/images/salah.jpg"
-      },
-      {
-        category: 'Course',
-        title: 'Learner Standard Track Course',
-        description: 'If you\'ve never been behind the steering wheel, this course is for you. At the end of 21 days, you\'ll know the basic traffic rules.',
-        instructor: 'Salah Yaakoub',
-        School: "Souidania school",
-      image: "./assets/images/salah.jpg"
-      },
+    },
     
   ];
+  
 
   return (
     <div className="course-section">

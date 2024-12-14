@@ -1,0 +1,62 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+#schoolProfile {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.school-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.school-logo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.school-details h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.school-details p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.course-offering {
+  margin: 20px 0;
+}
+
+.course-offering h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.course-offering ul {
+  padding-left: 20px;
+}
+
+.course-offering li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
